@@ -1,0 +1,289 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    overflow:hidden;
+
+    height:100vh;
+
+    font-family:Poppins,sans-serif;
+
+    background-image:url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1920&q=80");
+
+    background-size:cover;
+
+    background-position:center;
+
+}
+
+.overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:rgba(0,0,0,.45);
+
+    backdrop-filter:blur(2px);
+
+}
+
+.hero{
+
+    position:relative;
+
+    z-index:10;
+
+    width:100%;
+
+    height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:white;
+
+    text-align:center;
+
+    padding:20px;
+
+}
+
+.hero h1{
+
+    font-family:"Great Vibes",cursive;
+
+    font-size:75px;
+
+    margin-bottom:20px;
+
+    text-shadow:0 0 20px rgba(255,255,255,.6);
+
+}
+
+.hero p{
+
+    font-size:22px;
+
+    max-width:700px;
+
+    margin-bottom:50px;
+
+    line-height:1.8;
+
+}
+
+button{
+
+    padding:20px 45px;
+
+    border:none;
+
+    border-radius:50px;
+
+    cursor:pointer;
+
+    color:white;
+
+    font-size:22px;
+
+    backdrop-filter:blur(20px);
+
+    background:rgba(255,255,255,.15);
+
+    border:1px solid rgba(255,255,255,.4);
+
+    transition:.4s;
+
+    box-shadow:0 10px 35px rgba(255,105,180,.4);
+
+}
+
+button:hover{
+
+    transform:scale(1.08);
+
+    background:#ff4d88;
+
+    box-shadow:0 0 40px #ff4d88;
+
+}
+
+#particles-js{
+
+    position:absolute;
+
+    width:100%;
+
+    height:100%;
+
+}
+
+/* ========================= */
+/* CONTENEDORES */
+/* ========================= */
+
+#petals,
+#fireflies,
+#sparkles{
+
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    overflow:hidden;
+
+}
+
+/* ========================= */
+/* PETALOS */
+/* ========================= */
+
+.petal{
+
+    position:absolute;
+
+    width:22px;
+
+    height:22px;
+
+    background:radial-gradient(circle,#ffd1dc,#ff6fa5);
+
+    border-radius:60% 40% 60% 40%;
+
+    opacity:.85;
+
+    animation:fall linear forwards;
+
+}
+
+@keyframes fall{
+
+    from{
+
+        transform:
+        translateY(-50px)
+        rotate(0deg);
+
+    }
+
+    to{
+
+        transform:
+        translateY(110vh)
+        rotate(720deg);
+
+    }
+
+}
+
+/* ========================= */
+/* LUCIERNAGAS */
+/* ========================= */
+
+.firefly{
+
+    position:absolute;
+
+    width:6px;
+
+    height:6px;
+
+    background:#ffe66d;
+
+    border-radius:50%;
+
+    box-shadow:
+
+    0 0 10px #fff,
+
+    0 0 20px #ffe66d,
+
+    0 0 35px gold;
+
+    animation:float 12s linear infinite;
+
+}
+
+@keyframes float{
+
+0%{
+
+transform:translate(0,0);
+
+}
+
+25%{
+
+transform:translate(80px,-60px);
+
+}
+
+50%{
+
+transform:translate(-40px,-120px);
+
+}
+
+75%{
+
+transform:translate(60px,-200px);
+
+}
+
+100%{
+
+transform:translate(0,-260px);
+
+}
+
+}
+
+/* ========================= */
+/* BRILLOS */
+/* ========================= */
+
+.sparkle{
+
+    position:absolute;
+
+    width:4px;
+
+    height:4px;
+
+    background:white;
+
+    border-radius:50%;
+
+    animation:blink 2s infinite;
+
+}
+
+@keyframes blink{
+
+0%,100%{
+
+opacity:.2;
+
+}
+
+50%{
+
+opacity:1;
+
+box-shadow:0 0 20px white;
+
+}
+
+}

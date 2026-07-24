@@ -4,37 +4,326 @@
 <head>
 
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Mi Amor ❤️</title>
+    <title>Para Ti ❤️</title>
 
-    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/effects.css">
+    <link rel="stylesheet" href="css/carta.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/pergamino.css">
+    <link rel="stylesheet" href="css/final.css">
+
 
 </head>
 
+
+
 <body>
 
-    <!-- Música -->
-    <audio id="musica" loop>
 
-        <source src="music/cancion.mp3" type="audio/mp3">
 
-    </audio>
+<!-- ========================= -->
+<!-- EFECTOS -->
+<!-- ========================= -->
 
-    <!-- Universo -->
-    <canvas id="canvas"></canvas>
 
-    <!-- Botón -->
-    <div class="content">
+<div id="fireflies"></div>
 
-        <button onclick="abrirUniverso()">
-            Abrir Mensaje 💌
-        </button>
+<div id="petals"></div>
+
+<div id="sparkles"></div>
+
+<div class="overlay"></div>
+
+<div id="particles-js"></div>
+
+
+
+
+
+<!-- ========================= -->
+<!-- MUSICA -->
+<!-- ========================= -->
+
+
+<audio id="musica" loop>
+
+    <source src="assets/music/cancion.mp3" type="audio/mpeg">
+
+</audio>
+
+
+
+
+
+<!-- ========================= -->
+<!-- INICIO -->
+<!-- ========================= -->
+
+
+<section class="hero">
+
+
+    <h1>
+        Tengo una sorpresa para ti ❤️
+    </h1>
+
+
+    <p>
+
+        Hay personas que llegan a nuestra vida...
+
+        <br>
+
+        y la cambian para siempre, para robarnos una sonrisa y llevarse un recuerdo
+
+
+    </p>
+
+
+
+    <button id="btnAbrir">
+
+        <i class="fa-solid fa-envelope"></i>
+
+        Abrir Carta
+
+    </button>
+
+
+</section>
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- GALERIA -->
+<!-- ========================= -->
+
+
+<div id="gallery">
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- SOBRE Y CARTA -->
+<!-- ========================= -->
+
+
+<div id="envelopeContainer">
+
+
+    <div class="envelope">
+
+
+
+        <div class="envelope-back"></div>
+
+
+
+
+        <div class="letter">
+
+
+            <div class="letter-content">
+
+
+                <h2>
+
+                    ❤️ Nunca dudes de ti misma, eres como eres increible siendo tu misma❤️
+
+                </h2>
+
+
+
+                <p id="typedText"></p>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="envelope-front"></div>
+
+
+
+        <div class="envelope-flap"></div>
+
+
+
+        <div class="wax-seal">
+
+            ❤️
+
+        </div>
+
+
 
     </div>
 
-    <script src="app.js"></script>
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- PERGAMINO FINAL -->
+<!-- ========================= -->
+
+
+<div id="escenaPergamino">
+
+
+   <div id="pergamino">
+
+
+<div class="llama llama1"></div>
+
+<div class="llama llama2"></div>
+
+
+
+<h1 class="tituloPergamino">
+
+Para ti, una persona muy especial para mi, no te rindas❤️
+
+</h1>
+
+
+
+
+<div id="textoPergamino"></div>
+
+
+
+</div>
+
+
+
+    <button id="botonSorpresa">
+
+        ✨ Una última sorpresa...
+
+    </button>
+
+
+
+</div>
+
+
+
+<!-- ========================= -->
+<!-- ESCENA FINAL -->
+<!-- ========================= -->
+
+<div id="escenaFinal">
+
+
+    <div class="estrellas"></div>
+
+
+    <div id="corazonesFinal"></div>
+
+
+
+    <h1 id="mensajeFinal"></h1>
+
+
+
+</div>
+
+
+
+
+
+<!-- ========================= -->
+<!-- LIBRERIAS -->
+<!-- ========================= -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+
+
+
+
+
+
+
+<!-- ========================= -->
+<!-- JAVASCRIPT -->
+<!-- ========================= -->
+
+
+<script src="js/effects.js"></script>
+
+
+<script src="js/carta.js"></script>
+
+
+<script src="js/gallery.js"></script>
+
+
+<script src="js/hearts.js"></script>
+
+
+<script src="js/typewriter.js"></script>
+
+
+<script src="js/pergamino.js"></script>
+
+
+
+<script src="js/app.js"></script>
+
+
 
 </body>
 

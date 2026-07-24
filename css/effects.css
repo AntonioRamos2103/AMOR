@@ -1,0 +1,13 @@
+.corazon-explosion{
+
+
+    position:fixed;
+
+    font-size:35px;
+
+    pointer-events:none;
+
+    z-index:9999;
+
+
+}

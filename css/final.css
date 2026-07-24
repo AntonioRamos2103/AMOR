@@ -1,0 +1,351 @@
+/* ==========================
+   ESCENA FINAL
+========================== */
+
+
+#escenaFinal{
+
+    position:fixed;
+
+    inset:0;
+
+
+    background:
+
+    radial-gradient(
+        circle at center,
+        #35145f,
+        #02010a
+    );
+
+
+    display:flex;
+
+
+    justify-content:center;
+
+
+    align-items:center;
+
+
+    flex-direction:column;
+
+
+
+    opacity:0;
+
+
+    pointer-events:none;
+
+
+    z-index:500;
+
+
+    overflow:hidden;
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   ESTRELLAS
+========================== */
+
+
+.estrellas{
+
+
+    position:absolute;
+
+
+    inset:0;
+
+
+    background-image:
+
+
+    radial-gradient(
+        white 1px,
+        transparent 1px
+    );
+
+
+
+    background-size:80px 80px;
+
+
+
+    animation:
+
+    moverEstrellas 25s linear infinite;
+
+
+
+    opacity:.7;
+
+
+
+}
+
+
+
+
+
+
+@keyframes moverEstrellas{
+
+
+    from{
+
+        transform:translateY(0);
+
+    }
+
+
+
+    to{
+
+        transform:translateY(-250px);
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/* ==========================
+   MENSAJE FINAL
+========================== */
+
+
+#mensajeFinal{
+
+
+    position:relative;
+
+
+    z-index:10;
+
+
+
+    color:white;
+
+
+
+    font-family:'Great Vibes', cursive;
+
+
+
+    font-size:70px;
+
+
+
+    line-height:1.2;
+
+
+
+    text-align:center;
+
+
+
+    max-width:900px;
+
+
+
+    padding:30px;
+
+
+
+    white-space:pre-line;
+
+
+
+    text-shadow:
+
+
+    0 0 10px #ff9fcf,
+
+
+    0 0 30px #ff5ca8;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* ==========================
+   CORAZONES FLOTANTES
+========================== */
+
+
+#corazonesFinal{
+
+
+    position:absolute;
+
+
+    inset:0;
+
+
+    overflow:hidden;
+
+
+
+}
+
+
+
+
+
+
+
+.corazonFinal{
+
+
+    position:absolute;
+
+
+
+    bottom:-50px;
+
+
+
+    color:#ff5caa;
+
+
+
+    font-size:30px;
+
+
+
+    z-index:5;
+
+
+
+    animation:
+
+
+    subirCorazon 6s linear infinite;
+
+
+
+    filter:
+
+
+    drop-shadow(
+        0 0 10px pink
+    );
+
+
+
+}
+
+
+
+
+
+
+
+@keyframes subirCorazon{
+
+
+    0%{
+
+
+        transform:
+
+        translateY(100vh)
+
+        scale(.5)
+
+        rotate(0deg);
+
+
+
+        opacity:0;
+
+
+    }
+
+
+
+    30%{
+
+
+        opacity:1;
+
+
+
+    }
+
+
+
+    100%{
+
+
+        transform:
+
+
+        translateY(-20vh)
+
+        scale(1.5)
+
+        rotate(360deg);
+
+
+
+        opacity:0;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+
+@media(max-width:900px){
+
+
+#mensajeFinal{
+
+
+    font-size:45px;
+
+
+    padding:20px;
+
+
+}
+
+
+}
