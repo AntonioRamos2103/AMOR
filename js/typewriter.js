@@ -1,14 +1,11 @@
 const texto = `
 Hoy quiero recordarte algo...
 Hay momentos que creemos que todo esta perdido, la vida el futuro....
-pero nunca dudes de ti misma de como eres, tal y como eres.....
-Eres especial en todo sentido... tu carcater, tu forma de ser, tu forma de pensar, hasta tus locuras,
-eres especial, unica siendo tu misma...
-La vida aveces se torna dificl pero que seria la vida sin las pruebas las batallas 
-pero recuerda sonreir en cada batalla por que los momentos son pasajeros...
-pero esta cartita siempre estara en la nube, para cuando te sientas mal o tu no creas en ti
-recuerdes que hay alguien en alguna parte del mundo que cree en ti
-Gracias por existir.
+pero nunca dudes de ti misma, tal y como eres, hasta donde llegaste, todo lo que pasaste
+lo fuerte que eres apaesar de mil batllas sigues de pie.... Eres Valiente, fuerte, chambeadora
+La vida aveces se torna difiil pero que seria de la vida sin pruebas?
+Unica siendo tu misma... eres especial siendo tu misma ... Nunca cambies
+Esta cartita es para recordarte lo mucho que vales... lo mucho que lograste 
 
 ❤️
 `;

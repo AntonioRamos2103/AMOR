@@ -7,22 +7,22 @@ const fotos = [
 
     {
         url: "https://raw.githubusercontent.com/AnTo21Cris/mis-fotos-amor/main/foto1.jpeg",
-        texto: "Me parecio bonito este paisaje un atardecer como tu color de ojitos bonitos  ❤️"
+        texto: "Como olvidar el moomento, de la primera carta, el primer te quiero. como dice la carta. Nunca nadie sabe que nos depara en el futuro❤️"
     },
 
     {
         url: "https://raw.githubusercontent.com/AnTo21Cris/mis-fotos-amor/main/foto2.jpeg",
-        texto: "Nunca cambies, ni dudes de ti, ni hasta donde puedas llegar 🌸"
+        texto: "Nuestras escapaditas, lo nuestro siempre fue un riesgo, en cualquiera de las circunstancias, pero eso lo haces ser amor?🌸"
     },
 
     {
         url: "https://raw.githubusercontent.com/AnTo21Cris/mis-fotos-amor/main/foto3.jpeg",
-        texto: "Un momento inolvidable, bonita, bueno, las 3 b jsjs hermosa  💖"
+        texto: "El primer vistaso a tu uniforme, bonita Nunca olvides donde empezaste y hasta donde llegaste,💖"
     },
 
     {
         url: "https://raw.githubusercontent.com/AnTo21Cris/mis-fotos-amor/main/foto4.jpeg",
-        texto: "Asi como el atardecer al dia siguiente el sol volvera a salir.. con fe ✨"
+        texto: " Bellesa de mujer, apesar de mil batallas, de miles circunstancias. Nunca dudas de papa Dios y le sirves ✨"
     }
 
 ];
